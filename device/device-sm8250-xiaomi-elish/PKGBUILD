@@ -14,7 +14,7 @@ license=(MIT)
 makedepends=(devicepkg-helpers)
 _commit="b5e0ae474285b5894000527d5c4dbfa6d1b1f291"
 source=(
-    "https://gitlab.com/postmarketOS/device/community/device-xiaomi-elish/device-xiaomi-elish/deviceinfo"
+    "https://gitlab.postmarketos.org/postmarketOS/pmaports/-/raw/master/device/community/device-xiaomi-elish/deviceinfo"
     machine-info
     xiaomi-elish.conf
 )
