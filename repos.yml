@@ -38,14 +38,14 @@ base_distros:
       core: {}
       extra: {}
   aarch64:
-    remote_url: http://mirror.archlinuxarm.org/$arch/$repo
+    remote_url: https://mirrors.tuna.tsinghua.edu.cn/archlinuxarm/$arch/$repo
     repos:
       core: {}
       extra: {}
       alarm: {}
       aur: {}
   armv7h:
-    remote_url: http://mirror.archlinuxarm.org/$arch/$repo
+    remote_url: https://mirrors.tuna.tsinghua.edu.cn/archlinuxarm/$arch/$repo
     repos:
       core: {}
       extra: {}
