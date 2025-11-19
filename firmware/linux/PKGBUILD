@@ -2,7 +2,7 @@ _mode=cross
 _pkgbase=linux-firmware
 pkgbase=firmware-linux
 pkgdesc="Firmware files for Linux"
-pkgver=20240410
+pkgver=20250708
 pkgrel=1
 _arches=specific
 arch=(any)
@@ -16,10 +16,10 @@ provides=(linux-firmware)
 makedepends=(git)
 options=(!strip)
 source=("https://gitlab.com/kernel-firmware/linux-firmware/-/archive/${pkgver}/linux-firmware-${pkgver}.tar.gz")
-sha256sums=(25cd47c86b1f5f759146cb7e6b8c49c3a48b39dec50734af7298ab910ee0e996)
+sha256sums=(bc9a2ff1223e2e1ae896816c2b7cab2f5029a6d59600e1daf032a876e6d2ce18)
 
 _dir="linux-firmware-${pkgver}"
-_folders="qcom qca ath10k"
+_folders="qcom qca ath10k ath11k"
 # Full list of all folders. We only enable the ones we actually need, because it slows down makepkg extremely
 #_folders="3com acenic adaptec advansys amd amd-ucode amdgpu ar3k ath10k ath11k
 #    ath6k ath9k_htc atmel atusb av7110 bnx2 bnx2x brcm cadence cavium cis cpia2
